@@ -1,0 +1,20 @@
+.header-modal > div:last-child {
+  width: 320px !important;
+  background-color: unset !important;
+}
+
+.header-modal > div:last-child > div {
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+  background: var(
+    --gradient,
+    linear-gradient(135deg, #00ceea 0%, #28c38b 100%)
+  ) !important;
+}
+
+@media only screen and (min-width: 375px) {
+  .header-modal > div:last-child {
+    width: 350px !important;
+  }
+}

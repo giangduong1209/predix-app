@@ -1,0 +1,3 @@
+.banner-game :global(.swiper-slide) {
+  width: 100% !important;
+}
